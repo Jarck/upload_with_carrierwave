@@ -1,0 +1,13 @@
+C:/Ruby21-x64/bin/ruby.exe extconf.rb
+creating Makefile
+
+make "DESTDIR=" clean
+
+make "DESTDIR="
+generating debug_inspector-x64-mingw32.def
+compiling debug_inspector.c
+linking shared-object debug_inspector.so
+
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 debug_inspector.so ./.gem.20150405-20060-4xgpgl
+installing default debug_inspector libraries

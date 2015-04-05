@@ -1,0 +1,13 @@
+C:/Ruby21-x64/bin/ruby.exe extconf.rb
+creating Makefile
+
+make "DESTDIR=" clean
+
+make "DESTDIR="
+generating native-x64-mingw32.def
+compiling native.c
+linking shared-object native.so
+
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 native.so ./.gem.20150405-20060-1cpgn25
+installing default native libraries

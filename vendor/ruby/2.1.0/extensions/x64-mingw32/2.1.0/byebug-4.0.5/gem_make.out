@@ -1,0 +1,17 @@
+C:/Ruby21-x64/bin/ruby.exe extconf.rb
+creating Makefile
+
+make "DESTDIR=" clean
+
+make "DESTDIR="
+generating byebug-x64-mingw32.def
+compiling breakpoint.c
+compiling byebug.c
+compiling context.c
+compiling locker.c
+compiling threads.c
+linking shared-object byebug/byebug.so
+
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 byebug.so ./.gem.20150405-20060-1ybz204/byebug
+installing default byebug libraries
